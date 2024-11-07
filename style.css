@@ -1,0 +1,131 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.logo {
+    height: auto;
+    max-width: 220px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.banner {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descban {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+}
+
+.descban button {
+    margin: auto;
+}
+
+img {
+    width: auto;
+    max-width: 700px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.char-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.container img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 3em;
+    border-radius: 1em;
+    font-weight: 400;
+ }
+
+  .quote figcaption {
+    margin: 1em;
+}
+
+.cta {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.footer {
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
